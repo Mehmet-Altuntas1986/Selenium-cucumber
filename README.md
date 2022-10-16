@@ -112,3 +112,37 @@ From the description of what Selenium and Cucumber are it might be already clear
 Most organizations, today use Cucumber along with Selenium as it makes it easier to read and understand the flow of applications among the members from different teams. 
 
 Cloud testing products like BrowserStack support Selenium testing with Cucumber.
+
+What Is Cucumber? 
+Cucumber lets you write test scenarios using plain language. 
+
+It is a tool for behavior-driven development (BDD). BDD is a software development process that encourages cross-functional collaboration, in part, through use of a plain-English scripting language called “gherkin” that anyone, technical or not, can read, write, and understand. 
+
+Originally written in the Ruby programming language, Cucumber now supports a variety of different programming languages, including Java and JavaScript. The Cucumber framework is commonly used for acceptance tests. 
+
+Preferred by Business Testers 
+If you have business testers on the team, they would likely prefer to use Cucumber — or another BDD framework, like Quantum — since can be used without coding knowledge (which Selenium requires).  
+
+Cucumber uses a “given-when-then” framework for writing a test. After defining the feature and scenario under test, you provide the context (given), user action (when), and the expected outcome (then). 
+
+Cucumber BDD Example 
+Scenario: Login
+Given: User navigates to perfecto.io 
+When: User logs in using Username as “tester” and Password “extraordinaire” 
+Then:  Login should be successful 
+
+Is BDD Worth It?
+Cucumber’s behavior-driven development (BDD) library for Java Script is downloaded over half a million times every month. But is BDD worth it? Find out by watching the webinar below.
+
+Using Cucumber Within A Selenium Framework
+Some organizations implement Cucumber within a Selenium framework to allow for reliable test automation that emphasizes plain language. By doing so, they can: 
+
+Develop a shared understanding of how software should perform. 
+Improve collaboration between testers, coders, and decision-makers. 
+Automate web testing across browsers at scale.  
+Keep in mind, however, that in some cases the business side of the organization may not have input or opinions as to how the application behaves. It may also be true, depending on the size of your QA team or who is doing the automation work, that an extra layer of tooling to make tests more humanly readable (as with Cucumber) will not add value. In both cases, using Cucumber at the test creation phase may not be necessary.  
+
+Bottom Line 
+While Selenium and Cucumber have some overlap — both are open-source and used for functional testing — their similarities end there. Selenium is used to automate web browsers, whereas Cucumber is used for behavior-driven development. Finally, because Selenium requires coding knowledge, it is often picked by SDETs and developers. Cucumber is a go-to for business testers. 
+
+
