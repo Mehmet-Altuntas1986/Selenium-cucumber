@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Vytrack Automation" verbose="1">
+    <test name="Vytrack Smoke Test">
+        <!-- note:Birden fazla package da testlerin ayni anda run olmasini istiyorsak buraya ekle -->
+        <packages>
+            <package name="com.cybertek.tests.day14_extent_reports"></package>
+            <package name="com.cybertek.tests.day11_webtables"></package>
+        </packages>
+
+    </test>
+</suite>
+
+
+        <!--
+         ornegin <package     yerine  class larida burda run edebilirim
+
+          <classes>
+                <class name="com.cybertek.tests.day14_extent_reports.NavigateLoginTestWithReport">
+          </classes>
+         -->
