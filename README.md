@@ -2,7 +2,7 @@
 Selenium vs Cucumber: Core Differences    
 By Kristijan Pajtasev, Community Contributor - June 16, 2022
 
-LinkedIn Facebook Twitter WhatsApp
+
 Testing is very important when it comes to software development. It not only helps you ensure that the code you develop is working correctly, but also that it did not break the existing code. If you are working on web applications, you probably have already heard of Selenium and Cucumber. Both are quite popular solutions. But what is their purpose? How do they fit together and which one to choose? 
 
 This guide highlights the core differences between Selenium and Cucumber. 
